@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {margin: 0; padding: 0;}
+body {background-image: url("../IMG/Fondo.jpg"); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; text-align: center; color: #FFFFFF; font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "sans-serif"; }
+
+/* el asterisco hace referencia a un selector universal, es decir va a afectar a todos los elementos que están en el código fuente, el punto indica un selector de clase 
+padding retoma el color de relleno, margin genera un marco transparente*/
+
+.wrapper {background-color: rgba(150,225,151,0.50); width: 1000px; margin-left: auto; margin-right: auto;}
+
+
+footer{font-size: 15px; background-color: #40A33C; height: 50px; line-height: 50px;}
+
+
+.menu {background-color: #40A33C; height: 220px;}
+
+ul {list-style-type: none;}
+
+li {width: 249px; float: left; border-left: 1px solid white; line-height: 25px;}
+
+#izquierdo {border-left: none;}
+
+.titulito{font-size: 95px; line-height: 120px;}
+
+
+.cajafondo {background-color: black; width: 800px; margin-left: auto; margin-right: auto; padding: 50px; margin: 50px;}
+
+.cajafondo p {text-align: justify; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";}
+
+
+h2 {color: beige; border-top: 1px solid beige; border-bottom: 1px solid beige; width: 300px; margin-right: auto; margin-left: auto; line-height: 50px; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";}
+
+h3 {color: beige; font-size: 15px; font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";} 
+
+.polaroid {width: 317px; height: 400px; background-color: aliceblue; color: black; font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"; box-shadow: 10px 10px 20px black; float:left; margin: 8px;}
+
+/*Valores de box shadow: x, y, difuminado y color*/
+
+
+.clear {clear: left;}
+
+/*la propiedad clear permite que aparezca el wrapper después de poner la propiedad float left*/
+
+
+a { text-decoration: none; color: aliceblue;}
+
+a:hover {color: coral; font-size: 18px;}
+
+h4 {color: beige; font-size: 15px; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; margin-left: auto; margin-right: auto;}
+
+h5 {color: beige; font-size: 14px; font-family: arial; text-align: justify; line-height: 19px;}
+
+h6 {color: black; font-size: 15px; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; margin: 8px;}
+
+
+
